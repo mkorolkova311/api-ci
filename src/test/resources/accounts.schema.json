@@ -16,7 +16,7 @@
         "type": "String"
       },
       "name": {
-        "type": "string",
+        "type": "integer",
         "minLength": 1
       },
       "number": {
@@ -28,7 +28,7 @@
       },
       "currency": {
         "type": "string",
-        "enum": ["RUB", "USD"]
+        "enum": ["RUR", "USD"]
       }
     }
   }
